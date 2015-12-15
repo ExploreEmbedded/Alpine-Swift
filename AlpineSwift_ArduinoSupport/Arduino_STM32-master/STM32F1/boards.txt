@@ -1,0 +1,40 @@
+# STM32 Boards
+
+
+menu.device_variant=Variant
+menu.bootloader_version=Bootloader version
+menu.upload_method=Upload method
+
+##############################################################
+
+mapleMini.name=Alpine Swift
+
+mapleMini.build.board=MAPLE_MINI
+mapleMini.build.core=alpine
+mapleMini.build.cpu_flags=-DMCU_STM32F103CB -DSERIAL_USB
+mapleMini.build.variant=alpine_swift
+mapleMini.upload.usbID=1EAF:0003
+
+mapleMini.upload.tool=maple_upload
+mapleMini.upload.protocol=maple_dfu
+mapleMini.upload.use_1200bps_touch=false
+mapleMini.upload.file_type=bin
+mapleMini.upload.auto_reset=true
+
+mapleMini.menu.bootloader_version.original = Original (17k RAM,108k Flash)
+mapleMini.menu.bootloader_version.original.build.vect=VECT_TAB_ADDR=0x8005000
+mapleMini.menu.bootloader_version.original.build.ldscript=ld/flash.ld
+mapleMini.menu.bootloader_version.original.upload.ram.maximum_size=17408
+mapleMini.menu.bootloader_version.original.upload.flash.maximum_size=110592
+mapleMini.menu.bootloader_version.original.upload.maximum_size=110592
+mapleMini.menu.bootloader_version.original.upload.altID=1
+
+mapleMini.menu.bootloader_version.bootloader20 = Bootloader 2.0 (20k RAM,120k Flash)
+mapleMini.menu.bootloader_version.bootloader20.build.vect=VECT_TAB_ADDR=0x8002000
+mapleMini.menu.bootloader_version.bootloader20.build.ldscript=ld/bootloader_20.ld
+mapleMini.menu.bootloader_version.bootloader20.upload.ram.maximum_size=20480
+mapleMini.menu.bootloader_version.bootloader20.upload.flash.maximum_size=122880
+mapleMini.menu.bootloader_version.bootloader20.upload.maximum_size=122880
+mapleMini.menu.bootloader_version.bootloader20.upload.altID=2
+
+##############################################################
