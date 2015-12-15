@@ -1,0 +1,241 @@
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 10/21/15 11:39:04
+
+BeginCmp
+TimeStamp = /56247AE3;
+Reference = 8MHZ1;
+ValeurCmp = CRYSTAL;
+IdModule  = Crystals_Oscillators_SMD:Q_49U3HMS;
+EndCmp
+
+BeginCmp
+TimeStamp = /56299133;
+Reference = BUT1;
+ValeurCmp = SPST;
+IdModule  = switches:smd_push;
+EndCmp
+
+BeginCmp
+TimeStamp = /56247D69;
+Reference = C1;
+ValeurCmp = 18pF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /56247DC1;
+Reference = C2;
+ValeurCmp = 18pF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /56295FB1;
+Reference = C3;
+ValeurCmp = 47pf;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /562960CC;
+Reference = C4;
+ValeurCmp = 47pf;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5627BD77;
+Reference = C5;
+ValeurCmp = .1uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5627BF0F;
+Reference = C6;
+ValeurCmp = .1uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5627BF3C;
+Reference = C7;
+ValeurCmp = .1uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /56279025;
+Reference = C8;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5629152A;
+Reference = CON1;
+ValeurCmp = USB-MICRO-B;
+IdModule  = switches:USB_Micro-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /5629BCF2;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5628A0A3;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /5627914C;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5628AECD;
+Reference = P1;
+ValeurCmp = CONN_01X20;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /5628AFAC;
+Reference = P2;
+ValeurCmp = CONN_01X20;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /562942EE;
+Reference = Q1;
+ValeurCmp = BC547;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /5629450A;
+Reference = Q2;
+ValeurCmp = BC547;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /56299639;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /562990BF;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5629BBD9;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /56294224;
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5629574A;
+Reference = R5;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /56292964;
+Reference = R6;
+ValeurCmp = 22;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /56292BB8;
+Reference = R7;
+ValeurCmp = 22;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5629504B;
+Reference = R8;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /562950AF;
+Reference = R9;
+ValeurCmp = 36K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /562952FB;
+Reference = R10;
+ValeurCmp = 1.5K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /56249073;
+Reference = R11;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /56248C25;
+Reference = R12;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /56279219;
+Reference = R13;
+ValeurCmp = 470;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /56248EDD;
+Reference = RESET1;
+ValeurCmp = SPST;
+IdModule  = switches:smd_push;
+EndCmp
+
+BeginCmp
+TimeStamp = /5624798A;
+Reference = U1;
+ValeurCmp = STM32F103C8;
+IdModule  = Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56264138;
+Reference = U2;
+ValeurCmp = LMNEW;
+IdModule  = lm1117:SOT-223;
+EndCmp
+
+EndListe
